@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ElGranTurista</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="username">Nombre de usuario:</string>
+    <string name="password">Contraseña:</string>
+    <string name="signup">Registrarse</string>
+    <string name="login">Entrar</string>
+    <string name="establir">Seleccionar como Avatar</string>
+    <string name="logout">Salir</string>
+    <string name="offlinemode">Offline Access</string>
+    <string name="like">Like!</string>
+    <string name="dislike">Dislike!</string>
+    <string name="report">Report!</string>
+    <string name="unreport">Unreport!</string>
+    <string name="cancel">Cancelar</string>
+        <string name="gpsmessage">ElGranTurista requiere la activación de GPS para funcionar correctamente. ¿Desea activarlo?</string>
+        <string name="gpsactivar">Activar GPS</string>
+        
+    <string name="refresh">Refresh</string>
+    <string name="fotos">Fotos</string>
+    <string name="title_activity_main_explora">Explora</string>
+    <string name="title_activity_filtres">Filtros</string>
+    <string name="title_activity_questionari">Cuestionario</string>
+    <string name="title_activity_ar">Realidad Aumentada</string>
+    <string name="title_activity_localdata">LocalDataSource</string>
+    <string name="mainExplora">Explora</string>
+    <string name="mainConta">Perfil</string>
+    <string name="mainRanking">Ranking</string>
+    <string name="filtresProximitat">Distancia</string>
+    <string name="populars">Populares</string>
+    <string name="filtres">Filtros</string>
+    <string name="info">Info:</string>
+    <string name="noString"></string>
+    <string name="opinions">Opiniones</string>
+    <string name="publica">Publica!</string>
+    <string name="filtresA">a</string>
+    <string name="filtresKm">X km</string>
+    <string name="filtresMonument">Monumento</string>
+    <string name="filtresMusica">Musica</string>
+    <string name="filtresArt">Arte</string>
+    <string name="filtresCultura">Cultura</string>
+    <string name="filtresEsportiu">Deporte</string>
+    <string name="filtresGratuit">Gratuito</string>
+    <string name="filtresHorari">Obert de </string>
+    <string name="filtresReset">Reset</string>
+    <string name="questionariTitul">Cuestionario</string>
+    <string name="questionariPregunta">Pregunta</string>
+    <string name="questionariR1">R1</string>
+    <string name="questionariR2">R2</string>
+    <string name="questionariR3">R3</string>
+    <string name="questionariSeguent">Siguiente</string>
+    <string name="title_activity_vista_monument">Monumento</string>
+    <string name="title_activity_opinar">Opina</string>
+    <string name="title_activity_congratulations">Enhorabuena!</string>
+    <string name="title_activity_opinions">Opiniones</string>
+    <string name="congratulations_message">Enhorabuena!</string>
+    <string name="points_base">Puntos base</string>
+    <string name="points_opina">Puntos opinar</string>
+    <string name="points_foto">Puntos foto</string>
+    <string name="points_questionari">Puntos Cuestionario</string>
+    <string name="congratulations_opina">Opina</string>
+    <string name="congratulations_foto">Haz una foto</string>
+    <string name="congratulations_questionari">Completa el cuestionario</string>
+    <string name="nomUsuari">Nombre Usuario</string>
+    <string name="puntsUsuari">Puntos Usuario</string>
+    <string name="llocsVisitatsConta">Lugares Visitados</string>
+    <string name="rankingConta">Ranking</string>
+    <string name="amicsConta">Amigos</string>
+    <string name="congratulations1">Enhorabuena! \nHas visitado </string>
+    <string name="congratulations2">! \nHas conseguido </string>
+    <string name="congratulations3"> puntos! \nConsigue más puntos con las opciones siguientes:</string>
+    <string name="congratulations_puntsfoto"> 200 puntos!</string>
+    <string name="congratulations_puntsopina"> 50 puntos!</string>
+    <string name="congratulations_puntsquestionari"> 50 puntos!</string>
+    <string name="afegirAmistatConta">Añadir Amistad</string>
+    <string name="title_activity_login">ElGranTurista</string>
+    <string name="title_activity_signup">Registro</string>
+    <string name="title_activity_amics">Amistades</string>
+    <string name="title_activity_monuments_visitats">Monumentos Visitados</string>
+    <string name="title_activity_amiguets">AmiguetsActivity</string>
+    <string name="sincronitzar">Sincronizar</string>
+    <string name="general">General</string>
+    <string name="usuaris">Usuarios</string>
+    <string name="mapa">Mapa</string>
+    <string name="questionari_realitzat">Cuestionario completado</string>
+    <string name="title_activity_avatars">Avatares</string>
+    <string name="ok">OK!</string>
+    <string name="medalles">Medallas:</string>
+    <string name="noCercaMonumento">No estás lo suficientemente cerca del monumento!</string>
+    <string name="processing">Cargando...</string>
+    <string name="pleasewait">Por favor, espere.</string>
+     <string name="yahasopinado">Ya has opinado</string>
+        <string name="yahasfoto">Ya has fotografiado</string>
+	         <string name="yahasquestionario">Ya has hecho el cuestionario</string>
+    <string name="nombre">Nombre:</string>
+    <string name="puntos">Puntos:</string>
+	   <string name="distancia">Distancia:</string>
+       <string name="informacion">i</string>
+              <string name="title_activity_informacion">Información</string>
+       
+	    <string name="textinfo">
+	        ElGranTurista ha sido desarrollada por:\n
+	        Marc Beltrán Segarra\n
+	        Sergi Cebrián Gres\n
+	        Bernat del Santo Vila\n
+	        Sergi Rovira Cisterna\n
+	        \n
+	        Funcionamiento de la aplicación:\n \n
+			Explora\n
+			General: Lista de monumentos ordenados por los puntos que otorgan.\n
+			Populares: El usuario puede puntuar los monumentos una vez sincronizados. La lista de populares está ordenada por la puntuación media de los usuarios.\n
+			Mapa: Los monumentos sincronizados son los representados en color verde, los azules son los que aún no se han sincronizado. En las opciones se puede pasar a visualizar la realidad aumentada.\n
+			Filtros: Los monumentos están organizados en categorías (cultura, deporte... ). El usuario puede establecer qué categorias se visualizarán en las pestañas anteriores.\n
+			\n
+			Perfil\n
+			En este apartado el usuario puede acceder a su información personal: puntos, lugares visitados, amigos y medallas.\n
+			\n
+			Ranking\n
+			Lista de usuarios ordenados por puntuación. Seleccionando un usuario se puede visualizar su información y añadirlo o eliminarlo como amigo.\n</string>
+			       
+</resources>

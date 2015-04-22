@@ -1,2 +1,1 @@
-# ElGranTurista
 ElGranTurista Android App

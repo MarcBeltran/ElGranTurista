@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".VistaMonumentActivity" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lblNomMonument"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="#FFFFFF"
+            android:shadowColor="#000000"
+		    android:shadowDx="3"
+		    android:shadowDy="3"
+		    android:shadowRadius="3"
+            android:textSize="35dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:id="@+id/lblMedalles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/cmbFotos"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+			android:layout_marginBottom="5dp"
+			        android:background="@drawable/shape"
+					android:textColor="#FFFFFF"       
+			
+            android:text="@string/fotos" />
+        
+        <Button
+            android:id="@+id/cmbOpinions"
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+			android:layout_marginBottom="5dp"
+			        android:background="@drawable/shape"
+					android:textColor="#FFFFFF"       
+			
+            android:text="@string/opinions" />
+
+            <Button
+                android:id="@+id/cmbSincronitzar"
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape"
+                android:paddingLeft="12dp"
+                android:paddingRight="12dp"
+                android:text="@string/sincronitzar"
+                android:textColor="#FFFFFF" />
+	        
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".QuestionariActivity" >
+
+    <TextView
+        android:id="@+id/lblTitolQuestionari"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="50dp"
+        android:layout_marginLeft="65dp"
+        android:text="@string/questionariTitul"
+        android:textSize="@dimen/Titols" />
+
+    <TextView
+        android:id="@+id/lblPregunta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:text="@string/questionariPregunta"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/rdgPregunta1"
+        android:layout_width="wrap_content"
+        android:layout_height="202dp" >
+
+        <RadioButton
+            android:id="@+id/rdbP1R1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/questionariR1" />
+
+        <RadioButton
+            android:id="@+id/rdbP1R2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/questionariR2" />
+
+        <RadioButton
+            android:id="@+id/rdbP1R3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/questionariR3" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/cmbQuestSeguent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="30dp"
+                android:background="@drawable/shape"
+        		android:textColor="#FFFFFF"       
+        
+        android:text="@string/questionariSeguent" />
+
+</LinearLayout>
